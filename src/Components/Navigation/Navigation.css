@@ -1,0 +1,40 @@
+.box {
+  background: #f9f9fb;
+  border-bottom: 1px solid #e5e7e9;
+  height: 400px;
+  margin: 0 0 0 0;
+  position: relative
+}
+
+.coverpic {
+  background-position: center;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0
+}
+
+.mainbox {
+  margin-top: 100px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  font-size: 65px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.tagline {
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+}
